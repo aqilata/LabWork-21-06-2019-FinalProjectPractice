@@ -1,0 +1,71 @@
+// a {
+//     text-decoration: none;
+
+// }
+// a:hover{
+//     text-decoration: none;
+// }
+// ul{
+//     list-style-type: none;
+// }
+// header {
+//   background-color: red;
+//   nav {
+//     background-color: yellow;
+//     ul {
+//       display: flex;
+//       list-style-type: none;
+  
+//       li {
+//         margin-left: 1rem;
+//         a {
+//           color: white;
+//           text-decoration: none;
+
+//           &:hover {
+//             color: black;
+//           }
+//           &:visited {
+//             color: blue;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// section{
+   
+// }
+
+main{
+   
+}
+
+section{
+ 
+}
+
+.bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        display: none;
+
+    }
+    button{
+        display: block;
+    }
+}
+
+.mydiv{
+    margin-left: 20px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
